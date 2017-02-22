@@ -48,7 +48,7 @@ This is one of relatively few cases in which we'll use `resource` (singular). Th
 
 ```bash
 resources :sessions
-=> rake routes
+=> rails routes
 
      sessions GET        /sessions(.:format)            sessions#index
               POST       /sessions(.:format)            sessions#create
@@ -59,7 +59,7 @@ resources :sessions
               DELETE     /sessions/:id(.:format)        sessions#destroy
 
 resource :session
-=> rake routes
+=> rails routes
       session POST       /session(.:format)            sessions#create
   new_session GET        /session/new(.:format)        sessions#new
  edit_session GET        /session/:id/edit(.:format)   sessions#edit
