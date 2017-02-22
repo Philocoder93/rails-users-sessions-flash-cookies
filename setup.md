@@ -7,7 +7,7 @@ $ cd tunr_rails_users
 $ git checkout 1-added-users
 $ bundle update
 $ bundle install
-$ rails db: drop db:create db:migrate db:seed
+$ rails db:drop db:create db:migrate db:seed
 $ rails s
 ```
 
