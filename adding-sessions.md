@@ -220,6 +220,7 @@ To do this we will leverage our new `@current_user` variable, which can be acces
 
 ```html
 <!-- application.html.erb -->
+
 <nav>
   <% if @current_user %>
     <%= link_to "Welcome, #{@current_user.username}!", user_path(@current_user) %>
