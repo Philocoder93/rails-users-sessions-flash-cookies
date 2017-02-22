@@ -2,7 +2,7 @@
 
 ## Framing
 
-Many of us have been to several webpages that only allow us to access content if we are users of the webpage. Annoying, yes, but quite necessary for many websites. That said, how is this concept of "being signed in" done programmatically? How is that information persisted from request to request? Enter Sessions.
+Many of us have been to several webpages that only allow us to access content if we are users of the webpage. Annoying, yes. But why do you think this would be necessary for many websites?. That said, how is this concept of "being signed in" done programmatically? How is that information persisted from request to request? Enter Sessions.
 
 ## What's In A Session?
 
