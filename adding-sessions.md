@@ -219,6 +219,7 @@ Depending on whether a user is logged-in or not, we'll want the navigation to lo
 To do this we will leverage our new `@current_user` variable, which can be accessed in our views just like any other instance variable in a controller.
 
 ```html
+<!-- application.html.erb -->
 <nav>
   <% if @current_user %>
     <%= link_to "Welcome, #{@current_user.username}!", user_path(@current_user) %>
